@@ -1,0 +1,35 @@
+*{
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+}
+header,section,aside,footer{
+    margin: 0%;
+    padding: 20px;
+    border: 1px solid black;
+}
+header{
+    background-color: blue;
+}
+.menu{
+    background-color: red;
+    flex-basis: 300px;
+
+}
+.content{
+    background-color: rgb(0, 255, 221);
+    flex-grow: 1;
+}
+aside{
+    background-color:rgb(243, 16, 243);
+    flex-basis: 200px;
+}
+footer{
+    background-color: rgb(24, 83, 0);
+}
+.flex-container{
+    display: flex;
+}
+
